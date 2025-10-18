@@ -12,7 +12,6 @@ A Linux kernel driver for HD44780-based 20x4 LCD displays with PCF8574 I2C expan
 - ✅ User-friendly command-line application
 - ✅ Write to specific rows (1-4) without clearing others
 - ✅ Clear display command
-- ✅ Mutex protection for concurrent access
 - ✅ Comprehensive input validation and error handling
 - ✅ Buffer overflow protection
 
@@ -22,6 +21,7 @@ A Linux kernel driver for HD44780-based 20x4 LCD displays with PCF8574 I2C expan
 - HD44780-compatible 20x4 LCD display
 - PCF8574 I2C expander module
 - I2C connection (SDA, SCL, VCC, GND)
+- (Optional) Pullup resistors - 4.7kΩ
 
 ## Wiring
 
