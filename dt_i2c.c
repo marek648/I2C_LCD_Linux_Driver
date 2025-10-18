@@ -302,6 +302,6 @@ module_init(lcd_module_init);
 module_exit(lcd_module_exit);
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Your Name");
+MODULE_AUTHOR("Marek Lorinc");
 MODULE_DESCRIPTION("HD44780 LCD with PCF8574 I2C driver with char device");
 MODULE_VERSION("1.0");
